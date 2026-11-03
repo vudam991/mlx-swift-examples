@@ -1,6 +1,7 @@
 {
   "images" : [
     {
+      "filename" : "tintedGemini_Generated_Image_4s47gy4s47gy4s47.png",
       "idiom" : "universal",
       "platform" : "ios",
       "size" : "1024x1024"
@@ -12,6 +13,7 @@
           "value" : "dark"
         }
       ],
+      "filename" : "darkGemini_Generated_Image_ppwvltppwvltppwv 1.png",
       "idiom" : "universal",
       "platform" : "ios",
       "size" : "1024x1024"
@@ -28,6 +30,7 @@
       "size" : "1024x1024"
     },
     {
+      "filename" : "clover_2077426.png",
       "idiom" : "mac",
       "scale" : "1x",
       "size" : "16x16"
