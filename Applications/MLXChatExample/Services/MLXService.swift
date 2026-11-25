@@ -37,6 +37,15 @@ class MLXService {
         LMModel(name: "acereason:7B", configuration: LLMRegistry.acereason_7b_4bit, type: .llm),
         LMModel(name: "gemma3n:E2B", configuration: LLMRegistry.gemma3n_E2B_it_lm_4bit, type: .llm),
         LMModel(name: "gemma3n:E4B", configuration: LLMRegistry.gemma3n_E4B_it_lm_4bit, type: .llm),
+        LMModel(
+            name: "huihui-qwen3-vl:2b",
+            configuration: ModelConfiguration(
+                id: "nervouslyopen/huihui-Qwen3-VL-2B-Instruct-ab-4bit",
+                defaultPrompt: "Describe the image in English",
+                extraEOSTokens: ["<|im_end|>"]
+            ),
+            type: .vlm
+        ),
     ]
 
     /// Cache to store loaded model containers to avoid reloading.
