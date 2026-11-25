@@ -69,7 +69,7 @@ class MLXService {
             return container
         } else {
             // Select appropriate factory based on model type
-            let factory: ModelFactory =
+            let factory: any ModelFactory =
                 switch model.type {
                 case .llm:
                     LLMModelFactory.shared
