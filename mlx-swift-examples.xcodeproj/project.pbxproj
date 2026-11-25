@@ -12,6 +12,7 @@
 		0F5AD8002DB70E6300745C06 /* MLXLLM in Frameworks */ = {isa = PBXBuildFile; productRef = C32A17FC2CFFB98A0092A5B6 /* MLXLLM */; };
 		0F5AD8012DB70E6300745C06 /* MLXVLM in Frameworks */ = {isa = PBXBuildFile; productRef = C32A17FE2CFFB98A0092A5B6 /* MLXVLM */; };
 		81695B412BA373D300F260D8 /* MarkdownUI in Frameworks */ = {isa = PBXBuildFile; productRef = 81695B402BA373D300F260D8 /* MarkdownUI */; };
+		97495BDD30B6B1E300B4AF3B /* Hummingbird in Frameworks */ = {isa = PBXBuildFile; productRef = 97495BDC30B6B1E300B4AF3B /* Hummingbird */; };
 		C3132C2E2DFB317C00270E8E /* MLXVLM in Frameworks */ = {isa = PBXBuildFile; productRef = C3132C2D2DFB317C00270E8E /* MLXVLM */; };
 		C3132C302DFB317C00270E8E /* MLXLLM in Frameworks */ = {isa = PBXBuildFile; productRef = C3132C2F2DFB317C00270E8E /* MLXLLM */; };
 		C3208E762DB1945D006AE6CA /* MLX in Frameworks */ = {isa = PBXBuildFile; productRef = C3208E752DB1945D006AE6CA /* MLX */; };
@@ -454,6 +455,7 @@
 				C33944FD2F8970620054D57D /* MLXHuggingFace in Frameworks */,
 				0F5AD8012DB70E6300745C06 /* MLXVLM in Frameworks */,
 				0F5AD8002DB70E6300745C06 /* MLXLLM in Frameworks */,
+				97495BDD30B6B1E300B4AF3B /* Hummingbird in Frameworks */,
 				C3EA7F732F8445EE0054AEA3 /* HuggingFace in Frameworks */,
 				C3EA7F752F8445EE0054AEA3 /* Tokenizers in Frameworks */,
 			);
@@ -705,6 +707,7 @@
 				C3EA7F722F8445EE0054AEA3 /* HuggingFace */,
 				C3EA7F742F8445EE0054AEA3 /* Tokenizers */,
 				C33944FC2F8970620054D57D /* MLXHuggingFace */,
+				97495BDC30B6B1E300B4AF3B /* Hummingbird */,
 			);
 			productName = MLXChatExample;
 			productReference = 0F5AD7412DB70C0300745C06 /* MLXChatExample.app */;
@@ -1120,6 +1123,7 @@
 				C3EA7F522F8431BE0054AEA3 /* XCRemoteSwiftPackageReference "swift-huggingface" */,
 				C3EA7F532F8432080054AEA3 /* XCRemoteSwiftPackageReference "swift-transformers" */,
 				C36941322F8F489800810A49 /* XCRemoteSwiftPackageReference "mlx-swift-lm" */,
+				97495BDB30B6B1E300B4AF3B /* XCRemoteSwiftPackageReference "hummingbird" */,
 			);
 			productRefGroup = C39273752B606A0A00368D5D /* Products */;
 			projectDirPath = "";
@@ -3902,6 +3906,14 @@
 				minimumVersion = 2.3.1;
 			};
 		};
+		97495BDB30B6B1E300B4AF3B /* XCRemoteSwiftPackageReference "hummingbird" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hummingbird-project/hummingbird.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.29.0;
+			};
+		};
 		C32A18442D00E13E0092A5B6 /* XCRemoteSwiftPackageReference "mlx-swift" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/ml-explore/mlx-swift";
@@ -3975,6 +3987,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 81695B3F2BA373D300F260D8 /* XCRemoteSwiftPackageReference "swift-markdown-ui" */;
 			productName = MarkdownUI;
+		};
+		97495BDC30B6B1E300B4AF3B /* Hummingbird */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 97495BDB30B6B1E300B4AF3B /* XCRemoteSwiftPackageReference "hummingbird" */;
+			productName = Hummingbird;
 		};
 		C3132C2D2DFB317C00270E8E /* MLXVLM */ = {
 			isa = XCSwiftPackageProductDependency;
