@@ -200,7 +200,6 @@
 /* Begin PBXFileReference section */
 		0A979CD12E97175800635D67 /* embedder-tool */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "embedder-tool"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F5AD7412DB70C0300745C06 /* MLXChatExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MLXChatExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		97495BE030B6BD7C00B4AF3B /* MLXChatExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "MLXChatExample-Info.plist"; sourceTree = "<group>"; };
 		C3056BAB2BCD97B700A31D04 /* LoRATrainingExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoRATrainingExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3132C232DFB2FFB00270E8E /* ExampleLLM */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ExampleLLM; sourceTree = BUILT_PRODUCTS_DIR; };
 		C314FEDB2EF33B2F00E5B73A /* LLMBasic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LLMBasic.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -615,7 +614,6 @@
 		C39273672B60697700368D5D = {
 			isa = PBXGroup;
 			children = (
-				97495BE030B6BD7C00B4AF3B /* MLXChatExample-Info.plist */,
 				C325DE3F2B648CDB00628871 /* README.md */,
 				F8D7023A2BB4E223003D7CF5 /* Package.swift */,
 				C314FCF02EF3313B00E5B73A /* Configuration */,
