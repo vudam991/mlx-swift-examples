@@ -327,6 +327,7 @@
 				MLXChatExample/MLXChatExampleApp.swift,
 				MLXChatExample/Models/LMModel.swift,
 				MLXChatExample/Models/Message.swift,
+				MLXChatExample/Services/LocalAPIServer.swift,
 				MLXChatExample/Services/MLXService.swift,
 				MLXChatExample/Support/Assets.xcassets,
 				"MLXChatExample/Support/HubApi+default.swift",
